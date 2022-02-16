@@ -41,13 +41,19 @@ display
 
 ## rendering equation
 
-$$L_o(p, \omega_0) = L_e(p, \omega_0) + \int_{H^2}f_r(p, \omega_i \rightarrow \omega_0)L_i(p, \omega_i)cos\theta_id\omega_i$$
+$$
+L_o(p, \omega_0) = L_e(p, \omega_0) + \int_{H^2}f_r(p, \omega_i \rightarrow \omega_0)L_i(p, \omega_i)cos\theta_id\omega_i
+$$
 
 ### rendering equation in real-time
 
-$$L_o(p, \omega_0) = L_e(p, \omega_0) + \int_{H^2}L_i(p, \omega_i)f_r(p, \omega_i, \omega_0)cos\theta_i V(p, \omega_i)d\omega_i$$
+$$
+L_o(p, \omega_0) = L_e(p, \omega_0) + \int_{H^2}L_i(p, \omega_i)f_r(p, \omega_i, \omega_0)cos\theta_i V(p, \omega_i)d\omega_i
+$$
 
-其中 $$f_r(p, \omega_i, \omega_0)cos\theta_i$$ is (cosine-weighted) BRDF,
+
+
+其中 $f_r(p, \omega_i, \omega_0)cos\theta_i $$ is (cosine-weighted) BRDF,
 
 $$V(p, \omega_i)$$ is visibility
 
