@@ -55,3 +55,36 @@ $$f(\mu_o, \mu+i) = \frac{(1 - E(\mu_o))(1 - E(\mu_i))}{\pi(1 - E_avg)}, E_avg =
 需要预计算打表
 
 KC颜色项: $$\frac{F_{avg}E_{avg} }{1 - F_{avg}(1 - E_{avg})}$$, 乘到之前的KC上
+
+
+
+
+
+### 多边形区域光源对微表面BRDF着色
+
+shading microfacet models using Linearly Transformed Consines(**LTC**) 线性变换余弦
+
+
+
+
+
+## deferred shading
+
+pass1 ：不着色， 只更新深度
+
+pass2 :  一样， 但着色
+
+
+
+## tiled shading
+
+分成2d的片
+
+不是所有光源一起对某一个片起作用
+
+
+
+## clustered shading
+
+分成3d的块
+

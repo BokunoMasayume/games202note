@@ -30,3 +30,8 @@
   - [HBAO](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://developer.download.nvidia.cn/presentations/2008/SIGGRAPH/HBAO_SIG08b.pdf)
 - screen space directional occlusion(ssdo)
 - screen space reflection(ssr)
+  - 屏幕空间的光线追踪， 不需要引入3d片元
+  - SSR的两个基础
+    - 求交 intersection: 任何光线和场景之间
+    - 着色 shading: 相交像素到着色点的贡献
+
